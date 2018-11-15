@@ -1,3 +1,11 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/dx_sample/Form1.cs) (VB: [Form1.vb](./VB/dx_sample/Form1.vb))
+* [Program.cs](./CS/dx_sample/Program.cs) (VB: [Program.vb](./VB/dx_sample/Program.vb))
+* [XtraReport1.cs](./CS/dx_sample/XtraReport1.cs) (VB: [XtraReport1.vb](./VB/dx_sample/XtraReport1.vb))
+* [XtraReport2.cs](./CS/dx_sample/XtraReport2.cs) (VB: [XtraReport2.vb](./VB/dx_sample/XtraReport2.vb))
+<!-- default file list end -->
 # Customizing row height at runtime to a maximum best fit value
 
 
