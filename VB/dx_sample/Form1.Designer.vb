@@ -1,6 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System
-Namespace dx_sample
+﻿Namespace dx_sample
 	Partial Public Class Form1
 		''' <summary>
 		''' Required designer variable.
@@ -25,21 +23,36 @@ Namespace dx_sample
 		''' the contents of this method with the code editor.
 		''' </summary>
 		Private Sub InitializeComponent()
+			Me.simpleButton1 = New DevExpress.XtraEditors.SimpleButton()
 			Me.SuspendLayout()
+			' 
+			' simpleButton1
+			' 
+			Me.simpleButton1.Appearance.Font = New System.Drawing.Font("Tahoma", 12F)
+			Me.simpleButton1.Appearance.Options.UseFont = True
+			Me.simpleButton1.Location = New System.Drawing.Point(65, 79)
+			Me.simpleButton1.Name = "simpleButton1"
+			Me.simpleButton1.Size = New System.Drawing.Size(155, 104)
+			Me.simpleButton1.TabIndex = 0
+			Me.simpleButton1.Text = "Show Report"
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
 			' 
 			' Form1
 			' 
 			Me.AutoScaleDimensions = New System.Drawing.SizeF(6F, 13F)
 			Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
 			Me.ClientSize = New System.Drawing.Size(284, 262)
+			Me.Controls.Add(Me.simpleButton1)
 			Me.Name = "Form1"
 			Me.Text = "Form1"
-'			Me.Load += New System.EventHandler(Me.Form1_Load);
 			Me.ResumeLayout(False)
 
 		End Sub
 
 		#End Region
+
+		Private WithEvents simpleButton1 As DevExpress.XtraEditors.SimpleButton
 	End Class
 End Namespace
 

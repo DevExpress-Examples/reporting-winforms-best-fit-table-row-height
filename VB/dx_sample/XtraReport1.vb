@@ -1,5 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System
+﻿Imports System
 Imports System.Drawing
 Imports System.Collections
 Imports System.ComponentModel
@@ -10,6 +9,7 @@ Imports DevExpress.XtraPrinting.NativeBricks
 Namespace dx_sample
 	Partial Public Class XtraReport1
 		Inherits DevExpress.XtraReports.UI.XtraReport
+
 		Private DetailHeight As Single = 0
 		Public Sub New()
 			InitializeComponent()

@@ -1,6 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System
-Namespace dx_sample
+﻿Namespace dx_sample
 	Partial Public Class XtraReport1
 		''' <summary>
 		''' Required designer variable.
@@ -39,10 +37,10 @@ Namespace dx_sample
 			Me.xrTableCell1 = New DevExpress.XtraReports.UI.XRTableCell()
 			Me.xrTableCell2 = New DevExpress.XtraReports.UI.XRTableCell()
 			Me.bindingSource2 = New System.Windows.Forms.BindingSource(Me.components)
-			CType(Me.xrTable2, System.ComponentModel.ISupportInitialize).BeginInit()
-			CType(Me.xrTable1, System.ComponentModel.ISupportInitialize).BeginInit()
-			CType(Me.bindingSource2, System.ComponentModel.ISupportInitialize).BeginInit()
-			CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.xrTable2, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.xrTable1, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.bindingSource2, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me, System.ComponentModel.ISupportInitialize).BeginInit()
 			' 
 			' Detail
 			' 
@@ -144,10 +142,10 @@ Namespace dx_sample
 			Me.DataSource = Me.bindingSource2
 			Me.Margins = New System.Drawing.Printing.Margins(100, 101, 100, 101)
 			Me.Version = "12.1"
-			CType(Me.xrTable2, System.ComponentModel.ISupportInitialize).EndInit()
-			CType(Me.xrTable1, System.ComponentModel.ISupportInitialize).EndInit()
-			CType(Me.bindingSource2, System.ComponentModel.ISupportInitialize).EndInit()
-			CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.xrTable2, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.xrTable1, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.bindingSource2, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
 		End Sub
 
