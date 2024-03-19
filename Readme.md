@@ -3,7 +3,7 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E20053)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# Table Report - How to Adjust the Row Height to Best Fit the Cell Content
+# Reporting for WinForms - How to Adjust the Row Height to Best Fit the Cell Content
 
 This example sets the [XRTable.Height]() property at runtime to the value that allows the table to display the entire cell content.
 
