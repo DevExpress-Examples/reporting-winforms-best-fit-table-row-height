@@ -157,7 +157,7 @@
             this.BottomMargin,
             this.GroupHeader1});
             this.DataSource = this.bindingSource2;
-            this.Margins = new System.Drawing.Printing.Margins(100, 101, 100, 101);
+            this.Margins = new DevExpress.Drawing.DXMargins(100, 101, 100, 101);
             this.Version = "12.1";
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).EndInit();

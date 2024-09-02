@@ -140,7 +140,7 @@
 			' 
 			Me.Bands.AddRange(New DevExpress.XtraReports.UI.Band() { Me.Detail, Me.TopMargin, Me.BottomMargin, Me.GroupHeader1})
 			Me.DataSource = Me.bindingSource2
-			Me.Margins = New System.Drawing.Printing.Margins(100, 101, 100, 101)
+			Me.Margins = New DevExpress.Drawing.DXMargins(100, 101, 100, 101)
 			Me.Version = "12.1"
 			DirectCast(Me.xrTable2, System.ComponentModel.ISupportInitialize).EndInit()
 			DirectCast(Me.xrTable1, System.ComponentModel.ISupportInitialize).EndInit()
