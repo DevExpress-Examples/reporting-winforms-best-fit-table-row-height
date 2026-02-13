@@ -24,7 +24,7 @@ This example sets the [XRTable.Height]() property at runtime to the value that a
 
 - [Table Report - How to Adjust the Column Width to Best Fit the Cell Content](https://github.com/DevExpress-Examples/reporting-winforms-best-fit-table-column-width)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-winforms-best-fit-table-row-height&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-winforms-best-fit-table-row-height&~~~was_helpful=no)
 
